@@ -1,0 +1,130 @@
+header {min-height: 768px;
+    width: 100%;
+    margin: 0%;
+    height: 100vh;
+    background: url(../img/mountain.png) no-repeat center center fixed;
+    background-size: 150%;
+}
+
+.firstLine {
+    padding: 44px 100px 0 133px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 54px;
+    width: 122px;
+    background: url(../img/logo.png);
+}
+
+.backCall p {
+    color: #ffffff;
+    font-family: "Raleway";
+    text-align: right;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.numberBackCall {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.underNumber {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.numberBackCall:hover {
+    color: #10e08b;
+}
+
+.mainInformation {
+    padding: 0 100px 0 133px;
+}
+
+.mainInformation h3 {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #10e08b;
+    font-family: "Raleway";
+    font-weight: 800;
+    margin: 6% 0 35px 0;
+}
+
+.mainInformation h1 {
+    width: 842px;
+    font-size: 56px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-weight: 800;
+    margin: 0;
+}
+
+.advantages {
+    margin: 7% 100px 0 133px;
+    display: flex;
+    justify-content: left;
+}
+
+.itemAdvantage {
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-weight: 600;
+    width: 190px;
+    margin-right: 100px;
+}
+
+.itemAdvantage hr {
+    width: 252px;
+    border: none;
+    background-color: #8e8d8d;
+    height: 2px;
+}
+
+.button{
+    font-size: 16px;
+line-height: 18px;
+color: #ffffff;
+font-family: "Raleway";
+font-weight: 800;
+padding: 20px  50px 20px 70px;
+position: absolute;
+bottom: 0;
+right: 100px;
+background: #10e08b;
+}
+.button:hover{
+    background: #ffffff;  
+    color: #10e08b;
+}
+
+.arrow{
+    position: absolute;
+    bottom: 10;
+    left: 40px;
+    height: 31px;
+    width: 17px;
+    background: url(../img/arrow.png) no-repeat;
+}
+.arrow:hover{height: 31px;
+    width: 17px;
+    background: url(../img/arrow1.png)  no-repeat;}
+.button:hover .arrow{height: 31px;
+    width: 17px;
+    background: url(../img/arrow1.png)  no-repeat;}
+
+.positionOnPage{
+    position: absolute;
+    right: 25px;
+    top: 50%;
+}
+.positionOnPage2{
+    position: absolute;
+    right: 25px;
+    top: 150%;
+}
